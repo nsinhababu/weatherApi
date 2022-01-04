@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Info.</title>
+    <link rel="stylesheet" href="./weatherApi.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>W!</h1>
+      <!-- <div id="nav-link">
+        <select name="nav-links" id="nav-links">
+          <option class="options" value=""><a href="#">Log Out</a></option>
+
+          <option class="options" value="">
+            <a href="#">Customer Support</a>
+          </option>
+          <option class="options" value=""><a href="#">About Us</a></option>
+        </select>
+      </div> -->
+    </nav>
+    <div class="banner">
+      <h2>
+        your <br />
+        personal <br />
+        weather app
+      </h2>
+    </div>
+    <div class="container">
+      <div class="country-list-container">
+        <select name="countries" id="country-list"></select>
+      </div>
+
+      <div class="city-list-container">
+        <select name="cities" id="city-list"></select>
+      </div>
+
+      <div class="temp">
+        <div class="min-temp"></div>
+        <div class="avg-temp"></div>
+        <div class="max-temp"></div>
+      </div>
+
+      <div class="air">
+        <div class="humidity"></div>
+        <div class="wind-speed"></div>
+      </div>
+    </div>
+
+    <script src="./weatherApi.js"></script>
+  </body>
+</html>
